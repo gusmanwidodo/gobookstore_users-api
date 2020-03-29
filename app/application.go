@@ -8,7 +8,7 @@ var (
 	router = gin.Default()
 )
 
-// StartApplication for handling http reequest
+// StartApplication for handling http request
 func StartApplication() {
 	mapUrls()
 	router.Run(":8080")
